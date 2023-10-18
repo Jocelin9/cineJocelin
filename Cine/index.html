@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name= "theme-color" content="#4781b8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="img/icono.png">
+    <link rel="manifest" href="manifest.json">
+    <title>Cine</title>
+</head>
+<body>
+    <div class="cine">
+<div class="contenedor1">
+    <img  id="imgPelicula" src="img/cine.jpg" alt="Imagen Pelicula">
+</div>
+<div class="contenedor">
+    <form id="formulario">
+<label for="nombre">Nombre</label>
+<input type="text" id="nombre" placeholder="Ingrese su nombre"><br>
+<label for="nombre">Correo</label>
+<input type="email" id="correo" placeholder="Ingrese su correo"><br>
+<label for="pelicula">Pelicula</label>
+<select for="pelicula" id="pelicula">
+    <option value="peli">Seleccione una pelicula</option>
+    <option value="peli1">Taylor Swift The Eras Tour</option>
+    <option value="peli2">The exorcist: believer</option>
+    <option value="peli3">Gran Turismo</option>
+    <option value="peli4">Por Siempre Te Amaré </option>
+    <option value="peli5">La Monja II</option>
+</select><br>
+<label for="boletos">Número de boletos</label>
+<input type="number" id="boletos" placeholder="Ingrese el númer de boletos que desea "><br>
+</div>
+<div>
+    <button class="boton" id="aceptar" type="submit" > Aceptar</button><br>
+    <!-- <button class="boton1" id="editar" onclick="editar()"> Editar</button><br>
+    <button class="boton2" id="eliminar" onclick="eliminar()">Eliminar</button> -->
+</div>
+</form>
+</div>
+<div class="contenedor2">
+    <section class="d-grid gap-2 mb-3">
+        <article class="table-responsive">
+          <table class="table table-striped-columns" id="tabla">
+            <thead>
+            <tr>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Pelicula</th>
+            <th>Poster</th>
+            <th>Boletos</th>
+            <th>Total</th>
+            <th>Editar/Eliminar</th>
+          </tr>
+        </thead>
+        <tbody id="miTabla"></tbody>
+      </table>
+    </article>
+  </section>
+</div>
+<script src="app.js"></script>
+    
+</body>
+</html>

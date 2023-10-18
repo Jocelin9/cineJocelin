@@ -1,0 +1,132 @@
+body {
+   display:inline-flexbox;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+    background-color: #4781b8;
+}
+.cine{
+    display: flex;
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    margin-bottom: 7px;
+    width: 450px;
+    text-align: center;
+    align-items: flex ;
+    background-color: #f37b7b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family:cursive;
+    text-shadow: 2px 2px 4px rgb(248, 14, 14);
+    border-style:outset double ;
+}
+label {
+    display: block;
+    margin-bottom: 7px;
+}
+
+input {
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 7px;
+}
+select{
+    display:flex center;
+    margin-bottom: 7px;
+    width: 90%;
+    padding: 5px;
+}
+.boton {
+    background-color: #87d363;
+    color: white;
+    border-radius: 15%;
+    border: none;
+    width: 80px;
+    height: 40px;
+    margin: 4px 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgb(223, 136, 136);
+    border-style:ridge outset;
+    transition: all 1.2s;
+}
+.boton1 {
+    background-color: #eb944d;
+    color: white;
+    border-radius: 15%;
+    border: none;
+    width: 80px;
+    height: 40px;
+    margin: 4px 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgb(223, 136, 136);
+    border-style:ridge outset;
+    transition: all 1.2s;
+}
+
+.boton2 {
+    background-color: #eb4d4d;
+    color: white;
+    border-radius: 15%;
+    border: none;
+    width: 80px;
+    height: 40px;
+    margin: 4px 4px;
+    margin: 2;
+    font-size: 16px;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px rgb(223, 136, 136);
+    border-style:ridge outset;
+    transition: all 1.2s;
+}
+
+.contenedor1 {
+    margin: 5px 10px;
+    width: 250px;
+    text-align: center;
+    align-items: flex ;
+    background-color: #f37b7b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family:cursive;
+    text-shadow: 2px 2px 4px rgb(248, 14, 14);
+    border-style:outset double ;
+    transition: all 1.2s;
+}
+img{
+    width: 50px;
+    height: 70px;
+}
+
+.imgTabla{
+    width: 50px;
+    height: 70px;
+}
+
+.contenedor2 {
+    margin: 5px 10px;
+    text-align: center;
+    background-color: #f37b7b;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-family:cursive;
+    text-shadow: 2px 2px 4px rgb(248, 14, 14);
+    border-style:outset double ;
+    transition: all 1.2s;
+    display: grid;
+    place-content: center;
+    display: flex-end;
+    align-self: flex-end;
+}
